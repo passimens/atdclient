@@ -11,7 +11,7 @@ Proxy along with optional username/password can be specified through HTTP_PROXY/
 
 The tool uses [atdlib module](https://github.com/passimens/atdlib).
 [Executable version](dist/ATDClient.exe) is available in [dist](dist) folder.
-[Sample batch file](dist/ATDSubmit.cmd) is available in [dist](dist) folder.
+[Sample batch file](dist/atdsubmit.cmd) is available in [dist](dist) folder.
 
 ##### Command line help
 
