@@ -2,15 +2,21 @@
 
 ##### ATDClient.py
 Command-line testing tool which submits specified file to ATD and saves a report based on analysis results.
-The report is saved to [i]original_file_name[/i].atd.[i]reportType[/i].
+The report is saved to `<original_file_name>`.atd.`<reportType>`.
+
 Example:
-ATDClient.py -a 10.10.10.10 -u atduser -p atdpass -t pdf -f calc.exe
+
+ATDClient.py -a 10.10.10.10 -u atduser -p atdpass -t pdf -f calc.exe.
+
 This will submit calc.exe for analysis and save the respective pdf report to calc.exe.atd.pdf.
 
 Proxy along with optional username/password can be specified through HTTP_PROXY/HTTPS_PROXY environment variable.
 
+
 The tool uses [atdlib module](https://github.com/passimens/atdlib).
+
 [Executable version](dist/ATDClient.exe) is available in [dist](dist) folder.
+
 [Sample batch file](dist/atdsubmit.cmd) is available in [dist](dist) folder.
 
 ##### Command line help
