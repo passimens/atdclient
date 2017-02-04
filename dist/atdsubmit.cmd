@@ -1,0 +1,1 @@
+ATDClient.exe -a <atd_ip> -u <atd_user> -p <atd_user_pass> -t pdf -f %1
